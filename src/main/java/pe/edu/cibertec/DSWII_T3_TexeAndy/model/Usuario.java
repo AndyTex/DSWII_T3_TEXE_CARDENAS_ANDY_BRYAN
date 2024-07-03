@@ -24,6 +24,8 @@ public class Usuario {
     private String email;
     @Column(name = "password")
     private String password;
+    @Column(name = "nombres")
+    private String nombres;
     @Column (name = "apellidos")
     private String apellidos;
     @Column (name = "activo")

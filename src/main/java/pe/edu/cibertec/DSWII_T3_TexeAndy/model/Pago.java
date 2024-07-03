@@ -17,7 +17,7 @@ public class Pago {
     private PagosId id;
 
     @ManyToOne
-    @MapsId("idAlumnno")
+    @MapsId("idAlumno")
     @JoinColumn(name = "IdAlumno", nullable = false)
     private Alumno alumno;
 
